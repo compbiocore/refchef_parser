@@ -57,4 +57,5 @@ yaml_dict = {
              }
          }
 }
-print(yaml_dict)
+f = open('/Users/jwalla12/Repositories/refchef_parser/tests/data/test.yaml', 'w+')
+yaml.dump(yaml_dict, f, allow_unicode=True)
